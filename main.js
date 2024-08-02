@@ -151,7 +151,7 @@ function animate() {
 function displayScore() {
   ctx.font = "30px Arial";
   ctx.fillStyle = "black";
-  ctx.fillText("Score: " + انت فاكر انك فزت يا خسران انت اوحش واحد بيلعب اللعبه);
+  ctx.fillText("Score: " + score, 10, 30);
 }
 
 function displayGameOver() {
